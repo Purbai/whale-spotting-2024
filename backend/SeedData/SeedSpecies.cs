@@ -23,7 +23,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://static.inaturalist.org/photos/221755875/medium.jpg",
                 TailPictureLink = "https://static.inaturalist.org/photos/11895045/large.jpg",
                 WikiLink = "https://en.wikipedia.org/wiki/Humpback_whale",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -213,7 +213,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/22713235/large.jpeg",
                 TailPictureLink = "https://static.inaturalist.org/photos/127932012/large.jpeg",
                 WikiLink = "https://en.wikipedia.org/wiki/Dall%27s_porpoise",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -314,7 +314,7 @@ namespace WhaleSpotting.SeedData
                 TailPictureLink =
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Mesoplodon_ginkgodens_2.jpg/2880px-Mesoplodon_ginkgodens_2.jpg",
                 WikiLink = "https://en.wikipedia.org/wiki/Ginkgo-toothed_beaked_whale",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -323,7 +323,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://static.inaturalist.org/photos/298360229/large.jpeg",
                 TailPictureLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/425081926/large.jpeg",
                 WikiLink = "https://en.wikipedia.org/wiki/Cuvier%27s_beaked_whale",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -359,7 +359,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/110630841/large.jpeg",
                 TailPictureLink = "https://static.inaturalist.org/photos/321306607/large.jpg",
                 WikiLink = "https://en.wikipedia.org/wiki/Guiana_dolphin",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -455,7 +455,7 @@ namespace WhaleSpotting.SeedData
                 TailPictureLink =
                     "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sousa_chinensis_%283%29_by_Zureks.jpg",
                 WikiLink = "https://en.wikipedia.org/wiki/Indo-Pacific_humpback_dolphin",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -513,7 +513,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/66927345/medium.jpg",
                 TailPictureLink = "https://upload.wikimedia.org/wikipedia/commons/b/be/Narwhal_tail_above_surface.jpg",
                 WikiLink = "https://en.wikipedia.org/wiki/Narwhal",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -531,7 +531,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/213038441/medium.jpeg",
                 TailPictureLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/307874636/large.jpg",
                 WikiLink = "https://en.wikipedia.org/wiki/Northern_bottlenose_whale",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -596,7 +596,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/61633355/large.jpg",
                 TailPictureLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/190202648/large.jpeg",
                 WikiLink = "https://en.wikipedia.org/wiki/Pantropical_spotted_dolphin",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -605,7 +605,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/380921709/large.jpeg",
                 TailPictureLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/380921698/large.jpeg",
                 WikiLink = "https://en.wikipedia.org/wiki/Peale%27s_dolphin",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -624,7 +624,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/158910691/large.jpg",
                 TailPictureLink = "https://static.inaturalist.org/photos/291148163/large.jpeg",
                 WikiLink = "https://en.wikipedia.org/wiki/Pygmy_killer_whale",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -661,7 +661,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://upload.wikimedia.org/wikipedia/commons/e/ec/SEFSC-PAM-Rices-whale.png",
                 TailPictureLink = "https://static.inaturalist.org/photos/113240086/large.png",
                 WikiLink = "https://en.wikipedia.org/wiki/Rice%27s_whale",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -689,7 +689,7 @@ namespace WhaleSpotting.SeedData
                     "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sei_whale_mother_and_calf_Christin_Khan_NOAA.jpg",
                 TailPictureLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/321567411/large.jpeg",
                 WikiLink = "https://en.wikipedia.org/wiki/Sei_whale",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -728,7 +728,7 @@ namespace WhaleSpotting.SeedData
                 ExampleLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/26838108/medium.jpg",
                 TailPictureLink = "https://inaturalist-open-data.s3.amazonaws.com/photos/65936175/medium.jpg",
                 WikiLink = "https://en.wikipedia.org/wiki/Southern_right_whale",
-                TotalSightings = 0
+                TotalSightings = 1
             },
             new Species()
             {
@@ -851,7 +851,7 @@ namespace WhaleSpotting.SeedData
                 TailPictureLink =
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Yangtze_finless_porpoise%2C_10_November_2006.jpg/440px-Yangtze_finless_porpoise%2C_10_November_2006.jpg",
                 WikiLink = "https://en.wikipedia.org/wiki/Yangtze_finless_porpoise",
-                TotalSightings = 0
+                TotalSightings = 1
             },
         };
 

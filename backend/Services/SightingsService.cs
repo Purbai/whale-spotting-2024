@@ -23,11 +23,13 @@ public class SightingsService : ISightingsService
 {
     private readonly WhaleSpottingContext _context;
     private readonly IUserService _userservice;
+    private readonly ISpeciesService _speciesservice;
 
-    public SightingsService(WhaleSpottingContext context, IUserService userService)
+    public SightingsService(WhaleSpottingContext context, IUserService userService, ISpeciesService speciesService)
     {
         _context = context;
         _userservice = userService;
+        _speciesservice = speciesService;
     }
 
     public async Task CreateSighting(SightingsRequest sightingsRequest, int userId)
@@ -206,6 +208,7 @@ public class SightingsService : ISightingsService
             try
             {
                 await _userservice.AddPoint(sighting.UserId.ToString());
+                await _speciesservice.AddPointToSpecies(sighting.SpeciesId);
             }
             catch
             {
