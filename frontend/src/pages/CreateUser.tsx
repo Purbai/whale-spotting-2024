@@ -23,13 +23,16 @@ export function CreateUser(): JSX.Element {
             setError(errorData.errors)
             throw new Error()
           })
-        }
-        else {
-          const message = "Welcome to Whales Spotting. You have successfully signed-up"
-          const returnMsg = SendEmail({ username, message, userEmail: email })
-          if (returnMsg !== "success") {
-            throw new Error(returnMsg)
+        } else {
+          if (email !== "") {
+            const message = "Welcome to Whales Spotting. You have successfully signed-up"
+            const returnMsg = SendEmail({ username, message, userEmail: email })
+            if (returnMsg !== "success") {
+              setError({ emailSignup: [returnMsg] })
+              throw new Error(returnMsg)
+            }
           }
+
           return response.json()
         }
       })
